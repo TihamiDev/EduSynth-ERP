@@ -1,0 +1,388 @@
+@import url("bootstrap-icons-1.7.1/font/bootstrap-icons.css");
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap'); */
+
+@font-face {
+	font-family: 'Poppins';
+	src: URL('fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+body {
+	font-family: 'Poppins';
+	margin-bottom: 0px !important;
+}
+
+* {
+	transition: .3s;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #d8d8d8;
+	border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #a1a1a1;
+  }
+
+/* .nav-item>.nav.collapse {
+	border: 1px solid #1694e300;
+} */
+
+/* .dashboard .card {
+  background-color: transparent;
+} */
+
+.bg-dark {
+	background-image: linear-gradient(-45deg, #1054a9, #179ceb);
+}
+/* 
+.nav-item {
+	height: 40px;
+	margin: 2px 15px 2px 0;
+} */
+.nav-link {
+	color: #212529;
+	height: 40px;
+	border-radius: 8px;
+	border: 1px solid rgb(19, 26, 41, 0.25);
+	align-items: center;
+	margin: 2px 15px 2px 0;
+
+}
+
+.nav-link.active {
+	background: rgb(54, 123, 245, 0.15);
+}
+
+.navbar-pad {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.pos-fix-bt0-z10 {
+	position: fixed;
+	bottom: 0;
+	z-index: 10;
+}
+
+.card-img-top {
+	width: 150px;
+}
+
+.border-top-e6 {
+	/* border-top: 1px solid #e6e6e6; */
+	border-top: 1px solid #d9d9d9;
+}
+
+.border-btm-e6 {
+	/* border-bottom: 1px solid #e6e6e6; */
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.border-rt-e6 {
+	/* border-right: 1px solid #e6e6e6; */
+	border-right: 1px solid #d9d9d9;
+}
+
+.loading-bg-color {
+	background-color: #f8f9fa;
+}
+
+.dropdown-toggle.caret-off::after {
+	display: none;
+}
+
+/*https://mdbootstrap.com/docs/standard/extended/timeline/*/
+.timeline-1 {
+	border-left: 3px solid #b565a7;
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+	background: rgba(177, 99, 163, 0.09);
+	margin: 0 auto;
+	position: relative;
+	padding: 50px;
+	list-style: none;
+	text-align: left;
+	max-width: 40%;
+}
+
+@media (max-width: 767px) {
+	.timeline-1 {
+		max-width: 98%;
+		padding: 25px;
+	}
+}
+
+.timeline-1 .event {
+	border-bottom: 1px dashed #000;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+@media (max-width: 767px) {
+	.timeline-1 .event {
+		padding-top: 30px;
+	}
+}
+
+.timeline-1 .event:last-of-type {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border: none;
+}
+
+.timeline-1 .event:before,
+.timeline-1 .event:after {
+	position: absolute;
+	display: block;
+	top: 0;
+}
+
+.timeline-1 .event:before {
+	left: -207px;
+	content: attr(data-date);
+	text-align: right;
+	font-weight: 100;
+	font-size: 0.9em;
+	min-width: 120px;
+}
+
+@media (max-width: 767px) {
+	.timeline-1 .event:before {
+		left: 0px;
+		text-align: left;
+	}
+}
+
+.timeline-1 .event:after {
+	-webkit-box-shadow: 0 0 0 3px #b565a7;
+	box-shadow: 0 0 0 3px #b565a7;
+	left: -55.8px;
+	background: #fff;
+	border-radius: 50%;
+	height: 9px;
+	width: 9px;
+	content: "";
+	top: 5px;
+}
+
+@media (max-width: 767px) {
+	.timeline-1 .event:after {
+		left: -31.8px;
+	}
+}
+
+/* https://laracasts.com/discuss/channels/laravel/loading-spinner-in-blade?page=1&replyId=611191*/
+.loading {
+	z-index: 20;
+	position: absolute;
+	top: 0;
+	left: -5px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.loading-content {
+	position: absolute;
+	border: 16px solid #f3f3f3;
+	/* Light grey */
+	border-top: 16px solid #3498db;
+	/* Blue */
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	top: 40%;
+	left: 35%;
+	animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* .table:not(.syllabus-table) th:first-child,
+.table:not(.syllabus-table) td:first-child {
+  position: sticky;
+  left: 0;
+  background-color: #fff;
+  color: #212529;
+} */
+
+.table th,
+.table td {
+	white-space: nowrap;
+}
+
+figure.table th,
+figure.table td {
+	width: 100%;
+}
+
+.login-card {
+	width: 450px;
+}
+
+.dashboard-banner {
+	background: rgb(54, 123, 245, 0.15);
+}
+
+.card {
+	border-radius: 15px;
+}
+
+.card .card-header {
+	border-radius: 15px 15px 0px 0px;
+}
+
+.card .card-footer {
+	border-radius: 0px 0px 15px 15px;
+}
+
+.card .card-header,
+.card .card-footer {
+	background: #eeeeee85 !important;
+}
+
+.breadcrumb-card {
+	margin-bottom: 20px !important;
+}
+
+.nav .nav-link {
+	font-weight: 600;
+	background: transparent !important;
+}
+
+.room-section {
+	border-radius: 15px;
+	border: 2px solid #9191918f;
+	padding: 15px 15px 15px 15px;
+	margin-bottom: 10px;
+}
+
+.table-data {
+	border-radius: 15px;
+}
+
+.list-group .list-group-item {
+}
+
+.left-menu {
+	box-shadow: 2px 0 5px -1px rgba(31, 73, 125, 0.2);
+}
+
+.right-menu {
+	box-shadow: -2px 0 5px -1px rgba(31, 73, 125, 0.2);
+}
+
+.fc-header-toolbar,
+.fc-header-toolbar h2 {
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.fc-header-toolbar .fc-center {
+	display: flex !important;
+	justify-content: center;
+}
+
+.fc-header-toolbar .fc-center > h2 {
+	margin-top: 5px;
+}
+
+.fc-button-group > button {
+	padding: 0px 2px 0px 2px !important;
+	border: 1px solid #9e9e9e8e;
+	background: white;
+}
+
+.fc-button-group > button:hover {
+	background: rgba(233, 232, 232, 0.397);
+	transition: .4s;
+}
+
+.fc-button-group > button:active {
+	background: rgb(233, 232, 232);
+	transition: .4s;
+	box-shadow: none;
+}
+
+.fc-button-group .fc-state-active {
+	background: #9cc9ff8c;
+	box-shadow: none;
+}
+
+.fc-view-container {
+	font-size: 11px;
+}
+
+.notice {
+	border: 1px solid #9191918f;
+	border-radius: 5px;
+}
+
+.notice-body p {
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+
+.notice-col-1 {
+	float: left;
+	width: 2%;
+	background-color: #179ceb;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 4px 0px 0px 4px;
+}
+
+.notice-col-2 {
+	float: right;
+	width: 98%;
+	padding: 5px 5px 5px 5px;
+}
+
+.click-card {
+	cursor: pointer;
+	border: 2px solid #9191918f;
+	transition: .4s;
+}
+
+.click-card:hover {
+	background-color: #b4b9ff1e;
+	text-decoration: none;
+	border: 2px solid #0d6efd;
+	transition: .4s;
+}
+
+.click-card:active {
+	background-color: #b4b9ff46;
+}
+
+.breadcrumb-card {
+	background-color: #179deb28;
+	border-radius: 12px;
+	padding: 5px 5px 5px 5px;
+}
+
+.breadcrumb-card .breadcrumb-item {
+	font-weight: 600;
+}
