@@ -126,7 +126,9 @@ Once the server is running, you can log in to the system using the default crede
 
 
 **Contact Information**
+
 For any queries or support related to the EduSynth project, please feel free to reach out:
 
 Tihami Rahman
+
 Gaurav Sen
