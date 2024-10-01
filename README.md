@@ -36,6 +36,7 @@ EduSynth is built using Laravel, with CSS, HTML for front-end design, and MySQL 
 *Gaurav Sen: Integration and back-end logic.*
 
 **Installation and Setup**
+
 To set up this project locally, follow these steps:
 
 **Prerequisites**
@@ -80,6 +81,7 @@ php artisan key:generate
 ```
 
 Step 4: Configure Database
+
 Open the `.env` file and update the following database credentials according to your MySQL setup:
 
 ```
@@ -92,6 +94,7 @@ DB_PASSWORD=your_database_password
 ```
 
 Step 5: Migrate the Database
+
 Now, run the database migrations to create the necessary tables:
 
 
@@ -100,6 +103,7 @@ php artisan migrate
 ```
 
 Step 6: Run the Application
+
 After setting up the database, you can start the development server:
 
 ```
