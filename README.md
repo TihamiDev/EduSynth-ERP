@@ -140,21 +140,40 @@ Tihami Rahman
 
 Gaurav Sen
 
+## Project Screenshots
+
+Below are a few screenshots showcasing key features of SyncSphere.
+
+> **Note:** There are still multiple pages that have not been added here.
+
+- **LogIn page**
 
 ![Screenshot 2024-10-01 003020](https://github.com/user-attachments/assets/1505caf4-4c87-404f-a98a-9bb66b28775c)
 
+- **Change Password**
+
 ![Screenshot 2024-10-01 003103](https://github.com/user-attachments/assets/399be6b9-e4d5-4321-925d-a8d16941b6a4)
+
+- **Reset Password**
+
+![Screenshot 2024-10-01 003635](https://github.com/user-attachments/assets/9fbe4105-6d3f-4c8f-b3d0-259fe498afd6)
+
+- **Admin Dashboard**
 
 ![Screenshot 2024-10-01 003217](https://github.com/user-attachments/assets/1cf2db30-e413-4694-8786-8bb73bfeb943)
 
+- **Create Notice (ADMIN)**
 
 ![Screenshot 2024-10-01 003315](https://github.com/user-attachments/assets/cd4324aa-f5a2-4e7e-8aa5-6277506cf2d5)
 
+-**Create Syllabus**
+
 ![Screenshot 2024-10-01 003453](https://github.com/user-attachments/assets/805da9fd-656b-4013-bd5c-e183bbd1e7ac)
+
+- **Settings**
 
 ![Screenshot 2024-10-01 003507](https://github.com/user-attachments/assets/2506a168-a5d2-45d0-b5e0-37dec82e87c0)
 
-![Screenshot 2024-10-01 003635](https://github.com/user-attachments/assets/9fbe4105-6d3f-4c8f-b3d0-259fe498afd6)
 
 
 
