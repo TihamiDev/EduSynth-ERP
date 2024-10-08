@@ -1,4 +1,4 @@
-    EduSynth - ERP for Educational Institutions
+## EduSynth - ERP for Educational Institutions
 EduSynth is an Enterprise Resource Planning (ERP) solution tailored for educational institutions. It helps manage various academic, administrative, and financial tasks, making it easier for schools, colleges, and universities to operate smoothly.
 
 **Project Overview**
