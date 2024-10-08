@@ -142,7 +142,7 @@ Gaurav Sen
 
 ## Project Screenshots
 
-Below are a few screenshots showcasing key features of SyncSphere.
+Below are a few screenshots showcasing key features.
 
 > **Note:** There are still multiple pages that have not been added here.
 
